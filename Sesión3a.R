@@ -78,7 +78,7 @@ barplot(tab_banco)
 
 
 #si fueran proporciones se utiliza prop.table con un margen de 2
-ptab_banco <- )
+ptab_banco <-  )
 barplot(tab_banco)
 
 prop.table(tab_banco, margin = 2)
@@ -212,6 +212,7 @@ n=9;
 p=.3; 
 x=0:n; 
 prob=dbinom(x,n,p); 
+prob
 
 prob=dbinom(5,n,p)
 prob
@@ -256,8 +257,7 @@ distpoison <- dpois(xpoisson, lambda)
 plot (xpoisson, distpoison, type="h", col=c("orange", "yellow", "gray"), xlab = xpoisson)
 barplot(distpoison)
 
-
-
+?dpois
 
 #distribución Normal. Utilizaremos la función dnorm y sus variantes, para conocer las diferentes opciones pueden utilizar 
 ?dnorm
@@ -280,7 +280,7 @@ valores <- dnorm(x, media, desviacion)
 valores 
 
 #se plotea esta gráfica con plot utilizando tipo L (lineal)
-plot(x, valores, type="l", main="Distribución normal", xlab="Valores X", ylab="Valores de densidad")
+plot(x, valores, type="l", main="Distribución normal", xlabel="Valores X", ylabel="Valores de densidad")
 ?dnorm 
 pnorm(0.3,0.25,.11)
 #p es probabilidad acumulada usar mayor o menor (signo), todo aquello que ocurra x menos 1, o al ser mayor se debe hacer suma inversa
