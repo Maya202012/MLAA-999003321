@@ -1,3 +1,4 @@
+#Examen parical 1
 #Maya Luz Alvarado Avila, carné 999003321, Grupo 2, Sección A.
 
 table <- (airquality)
