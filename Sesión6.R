@@ -20,7 +20,7 @@ qnorm(ic/2,0,1, lower.tail = FALSE)
 #si no dan intervalo de confianza se utiliza 90
 qnorm(0.90,0,1)
 qnorm(0.95,0,1)
-qnorm(0.975,0,1)
+qnorm(0.975,0,1) 
 qnorm(0.99,0,1)
 qnorm(0.995,0,1)
 
