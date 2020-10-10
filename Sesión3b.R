@@ -1,6 +1,7 @@
 #Sesión 3
 #Software para la interpretación y análisis de la información para la investigación científica 
 #Sección A
+#ggplot
 
 #paquete Ggplot2, el cual ya hemos instalado previamente
 #si no ha instalado dicho paquete corra la siguiente instrucción
