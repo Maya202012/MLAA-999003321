@@ -1,5 +1,5 @@
 #Sesión 7
-# Pruebas de hipótesis y regresión lineal
+#Pruebas de hipótesis y regresión lineal
 
 
 #hipotesis de varianza. 
