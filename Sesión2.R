@@ -26,7 +26,7 @@ mean(trees$Volume)
 #mediana	
 median(trees$Height, na.rm = TRUE)
 
-#para trabajar la media no hay una formula nativa, por lo que si son pocos datos podemos hacerlo por observación 
+#para trabajar la moda no hay una formula nativa, por lo que si son pocos datos podemos hacerlo por observación 
 data1<- c(5, 4, 2, 6, 2, 1, 3, 4, 6, 7, 4)
 #La función table () devuelve una tabla con el número de diferentes valores de x (típicamente para enteros o	factores)
 
@@ -35,7 +35,7 @@ table(data1)
 #esto nos devuelve que la variable con mayor frecuencia es 4
 
 #para la moda hay que instalar la libreria ModeEst (quitar el signo # si no lo ha instalado)
-#install.packages("modeest")
+install.packages("modeest")
 library(modeest)
 
 #En caso de error la instalación o el uso de la variable correr las siguientes lineas
@@ -52,6 +52,8 @@ table(trees$Height)
 #mfv=  most frecuent value o valor más frecuente 
 mfv(trees$Girth) 
 mfv(trees$Height)
+
+
 
 #o podemos utilizar el metodo mlv (most likely value) 
 mlv(trees$Girth, method  =  "mfv")
@@ -89,6 +91,8 @@ table(trees$Height)
 
 skew(trees$Girth)
 kurtosi(trees$Girth)
+mardia(trees$Girth)
+
 
 skew(trees$Height)
 kurtosi(trees$Height)

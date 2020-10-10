@@ -52,9 +52,10 @@ ggplot(data = diamonds, aes(x =diamonds$color, fill = as.factor(diamonds$color))
 
 #8Utilizando el conjunto de datos "diamonds" y la librería GGPLOT realice un histograma con la 
 #variable Carat en su eje X. ¿Qué tipo de simetría presenta la gráfica?
-ggplot(diamonds) + geom_histogram(binwidth = 0.2, aes(x = carat, fill = 'orange') + 
-  xlab("Carat") + 
-  ylab("Frecuencia") + ggtitle ("Distribucion quilate") + theme_minimal ())
+ggplot(diamonds) +
+  geom_histogram(binwidth = 0.2, aes(x = carat), fill = 'orange') + 
+                   xlab("Carat") + ylab("Frecuencia") + 
+                   ggtitle ("Distribucion quilates") + theme_minimal ()
 
 #9. Utilizando el conjunto de datos "diamonds" y la librería GGPLOT y realizando el diagrama de 
 #cajas entre las variables Carat y Price indique cuál de las siguientes opciones es correcta
@@ -95,3 +96,4 @@ distpoison <- dpois(xpoisson, lambda)
 distpoison
 plot (xpoisson, distpoison, type="h", col=c("orange", "yellow", "gray"), xlab = xpoisson)
 barplot(distpoison)
+
