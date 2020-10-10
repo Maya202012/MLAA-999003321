@@ -1,8 +1,7 @@
 #Sesión 2
 #Software para la interpretación y análisis de la información para la investigación científica 
 
-#Estadística descriptiva 
-# Medidas de Tendencia Central
+#Estadística descriptiva # Medidas de Tendencia Central
 # Medidas de Dispersión
 # Medidas de apuntamiento y asimetría 
 
