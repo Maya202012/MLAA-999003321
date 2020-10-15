@@ -2,8 +2,8 @@
 #Software para la interpretación y análisis de la información para la investigación científica 
 
 #Estadística descriptiva # Medidas de Tendencia Central
-# Medidas de Dispersión
-# Medidas de apuntamiento y asimetría 
+#Medidas de Dispersión
+#Medidas de apuntamiento y asimetría 
 
 #Para esta sesión utilizaremos el conjunto trees, para ver su contenido solo deben escribir 
 trees
