@@ -13,7 +13,6 @@ summary(trees)
 
 #**********Medidas de tendencia central**********
 
-
 #Calculando la media 
 #circunferencia
 mean(trees$Girth)
