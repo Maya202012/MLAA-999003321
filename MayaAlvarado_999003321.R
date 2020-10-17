@@ -235,7 +235,7 @@ summary(lm.trees26)
 #Tomando en consideración el conjunto de datos "trees" y realizando una regresión lineal entre Volumen y Girth,
 #¿cómo se representa el modelo de regresión lineal? 
 summary(lm.trees26)
-#R/ Girth 7.677857, volume = 0.184632
+#R/ Girth = 7.677857 +  0.184632 volume 
 
 
 ################Pregunta 28
